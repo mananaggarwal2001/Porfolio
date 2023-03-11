@@ -12,7 +12,7 @@ const Resume = (props) => {
                 <p className='text-center'> <span className='ResumeHeadingClass'>Resume</span> </p>
                 <h3 className='text-center'> <span className='ResumeTopicClass'>A Summary of my Resume</span> </h3>
                 <div className="educationAndExperience">
-                    <div className="myEducation">
+                    <div className="myEducation" data-aos='slide-up'>
                         <h3 className='headingClassOfCard'>My Education</h3>
                         <div className="card" >
 
@@ -27,7 +27,7 @@ const Resume = (props) => {
                             })}
                         </div>
                     </div>
-                    <div className="MyExperience">
+                    <div className="MyExperience" data-aos='slide-up' data-aos-delay="500">
                         <h3 className='headingClassOfCard'>My Experience</h3>
                         <div className="card" >
                             <div className="card-body resumeBody">
@@ -52,21 +52,21 @@ const Resume = (props) => {
                     </div>
                 </div>
                 <div className="skills">
-                    <h3 className='headingClassOfCard text-center'>My Skills</h3>
+                    <h3 className='headingClassOfCard text-center' data-aos='fade-up'>My Skills</h3>
 
 
 
 
                     <div className="skillSets d-flex">
 
-                        <div className="skillSetOne">
+                        <div className="skillSetOne" data-aos='slide-up'>
                             <Progress name='C/C++' percentage="40%"/>
                             <Progress name='HTML' percentage="50%"/>
                             <Progress name='Java' percentage="40%"/>
                             <Progress name='Boostrap' percentage="80%"/>
                         </div>
 
-                        <div className="skillsSetTwo">
+                        <div className="skillsSetTwo" data-aos='slide-up' data-aos-delay='300'>
                             <Progress name="Javascript" percentage="60%"/>
                             <Progress name="CSS" percentage="80%"/>
                             <Progress name="React" percentage="90%"/>
@@ -74,7 +74,7 @@ const Resume = (props) => {
                         </div>
                     </div>
 
-                    <p className="CVParagraphTag"><a className='CVDownloadClass' href="http://">Download CV</a></p>
+                    <p className="CVParagraphTag" data-aos='slide-left'><a className='CVDownloadClass' href="http://">Download CV</a></p>
                 </div>
             </div>
         </>

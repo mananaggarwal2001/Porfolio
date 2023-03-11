@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import Navbar from './Navbar'
 import '../CSS/MainBody.css'
 import CoverPageLeft from './CoverPageLeft'
@@ -9,7 +9,11 @@ import Resume from './Resume'
 import Projects from './Projects'
 import Contactme from './Contactme'
 import Footer from './Footer'
+import HireMe from './HireMe'
+import AOS from 'aos';
 const MainBody = (props) => {
+   
+
     const {education, projects} = props;
     return (
         <>
@@ -39,6 +43,9 @@ const MainBody = (props) => {
             </div>
             <div className="projectSection">
                 <Projects Projects={projects} />
+            </div>
+            <div className="hireMeSection">
+                <HireMe/>
             </div>
             <div className="contactme">
                 <Contactme/>

@@ -1,8 +1,8 @@
-@media screen and (max-width: 1038px) {
+@media screen and (max-width: 1000px) {
 
     body {
         background-position: center !important;
-        width: 100vw !important;
+        /* width: 100vw !important; */
     }
 
     .imageClass img {
@@ -12,7 +12,7 @@
     }
 
     .AboutMedetailsClass {
-        width: calc(100vw - 100px);
+        width: calc(100vw);
         flex-direction: column;
         justify-content: center;
         text-align: center;
@@ -59,6 +59,8 @@
     }
 
     .iconSection {
+        margin: 0 !important;
+        padding: 0 !important;
         justify-content: space-around !important;
     }
 
@@ -71,7 +73,7 @@
 
     .firstSeciton {
         width: 100vw !important;
-     }
+    }
 
     .coverpageleft {
         display: flex;
@@ -87,7 +89,7 @@
     }
 
     .containerClass p {
-        justify-content: center;
+        font-size: calc(1rem + 4.3vw);
         text-align: center;
     }
 
@@ -151,5 +153,8 @@
 
     .buttonPhoneNumber {
         margin: auto !important;
+    }
+    .HireMeParagraphButton p{
+        font-size: calc(1.2rem + 4.5vw);
     }
 }

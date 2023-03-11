@@ -3,7 +3,19 @@ import './App.css';
 import Navbar from './components/Navbar';
 import MainBody from './components/MainBody';
 import './CSS/Responsive.css'
+import AOS from 'aos';
+import { useEffect } from 'react';
 function App() {
+
+  useEffect(() => {
+
+    return () => {
+      AOS.init({
+        duration: 1200,
+        once: true
+      })
+    }
+  }, [])
 
   const Education = [{
     title: 'BTech Computer Science',

@@ -8,10 +8,10 @@ const Service = () => {
     return (
         <>
             <div className='ServiceSection'>
-                <p className=' text-center'> <span className='serviceHeading'> What i Do </span></p>
-                <h2 className='serviceMainHeadingClass text-center'>How can I help Your Next Project </h2>
+                <p className=' text-center' data-aos='fade-up'> <span className='serviceHeading'> What i Do </span></p>
+                <h2 data-aos='fade-down' className='serviceMainHeadingClass text-center'>How can I help Your Next Project </h2>
 
-                <div className="cardcontainer">
+                <div className="cardcontainer" data-aos='slide-up'>
                     <div className="row row-cols-1 row-cols-md-3 g-4">
                         <div className="col">
                             <div className="card">

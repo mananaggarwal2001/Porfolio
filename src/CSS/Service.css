@@ -20,9 +20,10 @@
 }
 
 .cardcontainer{
-    padding:40px 8rem;
+    padding:40px 2rem;
     padding-top: 90px;
     flex-wrap: wrap;
+    width: calc(100vw - 2rem) !important;
 }
 
 .card{

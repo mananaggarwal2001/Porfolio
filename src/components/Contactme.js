@@ -3,7 +3,7 @@ import '../CSS/Contactme.css'
 const Contactme = () => {
     return (
         <div className='contactmeSection'>
-            <div className="contactmeleft">
+            <div className="contactmeleft" data-aos='slide-up'>
                 <div className="getintouch">
                     <h3>Let's Get in touch</h3>
                     <p>I enjoy discussing new projects and design challenges. Please share as much info, as possible so we can get the most out of our first catch-up.</p>
@@ -11,7 +11,7 @@ const Contactme = () => {
 
                 <div className="livingin">
                     <p>Living In:</p>
-                    <p>30 Shacham street, Los Angeles, USA.</p>
+                    <p>Palm Olympia Tower-10 Gaur City Noida</p>
                 </div>
                 <div className="Call">
                     <p>Call:</p>
@@ -25,20 +25,20 @@ const Contactme = () => {
                     <a className="navicon github" href="#"><i className="fa-brands fa-github"></i></a>
                 </div>
             </div>
-            <div className="contactmeright">
+            <div className="contactmeright" data-aos='slide-up' data-aos-delay='500'>
                 <h3>Estimate your Project?</h3>
                 <form>
                     <div className="mb-5">
-                        <label for="exampleInputEmail1" className="form-label">What is your name</label>
-                        <input type="text" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"/>
+                        <label for="exampleInputEmail1" className="form-label">What is your name ?</label>
+                        <input type="text" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required/>
                     </div>
                     <div className="mb-5">
                         <label for="exampleInputPassword1" className="form-label">What is Your Email ?</label>
-                        <input type="email" className="form-control" id="exampleInputPassword1"/>
+                        <input type="email" className="form-control" id="exampleInputPassword1" required/>
                     </div>
                     <div className="mb-5">
                         <label for="exampleInputPassword1" className="form-label">How Can I Help You ?</label>
-                        <textarea type="email" className="form-control" id="exampleInputPassword1"/>
+                        <textarea type="email" className="form-control" id="exampleInputPassword1" required/>
                     </div>
                     <button type="submit" className="btn btn-primary">Send <i class="fas fa-arrow-right"></i> </button>
                 </form>

@@ -4,8 +4,8 @@ const Footer = () => {
     const presentDate = new Date().getFullYear();
     return (
         <div className='FooterSection'>
-            <p>Copyright &copy; {presentDate} <span className='NameSpanClass'> Manan Aggarwal </span> . All Rights Reserved.</p>
-            <p>Designed By <span className='NameSpanClass'> Manan Aggarwal </span></p>
+            <p data-aos='fade-right'>Copyright &copy; {presentDate} <span className='NameSpanClass'> Manan Aggarwal </span> . All Rights Reserved.</p>
+            <p data-aos='fade-left' data-aos-delay='200'>Designed By <span className='NameSpanClass'> Manan Aggarwal </span></p>
         </div>
     )
 }
