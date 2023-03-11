@@ -14,7 +14,7 @@ const AboutMeSecondSection = () => {
         </div>
         <div className="detailbox">
           <p className='askingDetailsClass'>Email:</p>
-          <p> <a className='mailLinkClass' href="mailto: mananaggarwal2001@gmail.com" target="_blank">  mananaggarwal2001@gmail.com</a></p>
+          <p> <a className='mailLinkClass' href="mailto: mananaggarwal2001@gmail.com"  target="_blank" without rel="noreferrer">  mananaggarwal2001@gmail.com</a></p>
         </div>
         <div className="detailbox">
           <p className='askingDetailsClass'>Date of Birth</p>

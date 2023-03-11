@@ -2,9 +2,7 @@ import React from 'react'
 import '../CSS/Service.css'
 const Service = () => {
 
-    const servicesJson = [{
 
-    }]
     return (
         <>
             <div className='ServiceSection'>

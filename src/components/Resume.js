@@ -1,11 +1,9 @@
 import '../CSS/Resume.css'
-import React, { useState } from 'react'
+import React from 'react'
 import Progress from './Progress';
 
 const Resume = (props) => {
-    const { education, skills } = props;
-    const [counter, setCounter] = useState(0);
-    localStorage.setItem('Counter', counter);
+    const { education } = props;
     return (
         <>
             <div className='ResumeClass'>

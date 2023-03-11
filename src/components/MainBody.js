@@ -1,4 +1,4 @@
-import React, {useEffect} from 'react'
+import React from 'react'
 import Navbar from './Navbar'
 import '../CSS/MainBody.css'
 import CoverPageLeft from './CoverPageLeft'
@@ -10,9 +10,8 @@ import Projects from './Projects'
 import Contactme from './Contactme'
 import Footer from './Footer'
 import HireMe from './HireMe'
-import AOS from 'aos';
 const MainBody = (props) => {
-   
+
 
     const {education, projects} = props;
     return (

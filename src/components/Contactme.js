@@ -18,11 +18,11 @@ const Contactme = () => {
                     <p>(+91) 9319054970</p>
                 </div>
                 <div className="iconSection">
-                    <a className="navicon facebook" href="https://facebook.com" target='_blank'><i className="fa-brands fa-facebook"></i></a>
-                    <a className="navicon instagram" href="#"><i className="fa-brands fa-instagram"></i></a>
-                    <a className="navicon linkedin" href="https://www.linkedin.com/in/manan-aggarwal-766603145" target='_blank'><i className="fa-brands fa-linkedin"></i></a>
-                    <a className="navicon twitter" href="#"><i className="fa-brands fa-twitter"></i></a>
-                    <a className="navicon github" href="#"><i className="fa-brands fa-github"></i></a>
+                    <a className="navicon facebook" href="https://facebook.com" target='_blank' rel="noreferrer"><i className="fa-brands fa-facebook"></i></a>
+                    <a className="navicon instagram" href="/"><i className="fa-brands fa-instagram"></i></a>
+                    <a className="navicon linkedin" href="https://www.linkedin.com/in/manan-aggarwal-766603145" target='_blank' rel="noreferrer"><i className="fa-brands fa-linkedin"></i></a>
+                    <a className="navicon twitter" href="/"><i className="fa-brands fa-twitter" target='_blank' rel="noreferrer"></i></a>
+                    <a className="navicon github" href="/"><i className="fa-brands fa-github" target='_blank' rel="noreferrer"></i></a>
                 </div>
             </div>
             <div className="contactmeright" data-aos='slide-up' data-aos-delay='500'>

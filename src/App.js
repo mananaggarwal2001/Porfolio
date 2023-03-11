@@ -1,6 +1,4 @@
-import logo from './logo.svg';
 import './App.css';
-import Navbar from './components/Navbar';
 import MainBody from './components/MainBody';
 import './CSS/Responsive.css'
 import AOS from 'aos';
@@ -29,10 +27,6 @@ function App() {
     title: '12th CBSE BOARDS',
     subtitle: 'Universal Public School',
     description: 'I have Done by 12th from the Universal Public School Preet Vihar and Secure 81.4%'
-  }]
-
-  const Experience = [{
-
   }]
 
   const projects = [

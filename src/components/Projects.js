@@ -12,9 +12,9 @@ const Projects = (props) => {
                     return <div class="col cardItem">
                         <h5 class="card-title mytitle">{element.name}</h5>
                         <div className="overlayClass">
-                            <a href={element.githubLink} target="_blank"><i class="fa-brands fa-github"></i></a>
+                            <a href={element.githubLink} target="_blank" rel="noreferrer"><i class="fa-brands fa-github"></i></a>
                             {element.applicationLink !== null ?
-                                <a href={element.applicationLink} target="_blank"><i class="fa-sharp fa-solid fa-link"></i></a> : null
+                                <a href={element.applicationLink} target="_blank" rel='noreferrer'><i class="fa-sharp fa-solid fa-link"></i></a> : null
                         }
                         </div>
                     </div>
