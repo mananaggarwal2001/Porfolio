@@ -1,0 +1,9 @@
+.imageClass img{
+    width: 27rem;
+    height: 27rem;
+    border: 15px solid white;
+    border-radius: 100%;
+    margin-bottom: 9.5vh;
+    margin-top: 5vh;
+
+}

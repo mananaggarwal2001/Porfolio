@@ -1,0 +1,155 @@
+@media screen and (max-width: 1038px) {
+
+    body {
+        background-position: center !important;
+        width: 100vw !important;
+    }
+
+    .imageClass img {
+        display: block;
+        width: calc(10.5rem + 100vw);
+        height: 10.5rem;
+    }
+
+    .AboutMedetailsClass {
+        width: calc(100vw - 100px);
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .cardcontainer {
+        margin: 0;
+        width: 100vw;
+        padding: 0;
+    }
+
+    .responsiveClass {
+        width: inherit;
+
+    }
+
+    .educationAndExperience {
+        flex-direction: column;
+        width: calc(100vw - 12vw);
+    }
+
+    .skillSets {
+        flex-direction: column;
+    }
+
+    .ResumeClass {
+        padding: 100px 12vw !important;
+    }
+
+    .contactmeleft {
+        width: 100vw !important;
+        text-align: center;
+    }
+
+    .contactmeSection {
+        width: 100vw !important;
+        padding: 12vw !important;
+    }
+
+    .contactmeright {
+        margin-top: 100px !important;
+        width: 100vw !important;
+        text-align: center;
+    }
+
+    .iconSection {
+        justify-content: space-around !important;
+    }
+
+    .MainbodyClass {
+        padding: 0px !important;
+        margin: 0px !important;
+        width: 100vw !important;
+
+    }
+
+    .firstSeciton {
+        width: 100vw !important;
+    }
+
+    .coverpageleft {
+        display: flex;
+        width: inherit !important;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center !important;
+    }
+
+    .containerClass h3 {
+        font-size: 7.4vw;
+        text-align: center;
+    }
+
+    .containerClass p {
+        justify-content: center;
+        text-align: center;
+    }
+
+    .typewriterClass {
+        text-align: center;
+        font-size: calc(1.4rem + 10.3vw);
+    }
+
+    .buttonsContainer {
+        display: flex;
+        width: 100vw !important;
+        /* flex-direction: column !important; */
+        flex-wrap: wrap;
+        font-size: 5.3rem;
+        justify-content: center;
+        margin-bottom: 50px;
+    }
+
+    .buttonsContainer a {
+        display: inline;
+        margin: auto;
+    }
+
+    .imageClass {
+        /* margin: 110px 0px !important; */
+        margin: 0px !important;
+        margin-top: 130px !important;
+        margin-bottom: 0 !important;
+        padding: 0px !important;
+        width: 100vw !important;
+    }
+
+    .imageClass img {
+        margin: 0 auto !important;
+        height: calc(2.5rem + 80.5vw) !important;
+        width: calc(2.5rem + 80.5vw) !important;
+    }
+
+    .detailbox {
+        margin-bottom: 30px;
+    }
+
+    .FooterSection {
+        text-align: center;
+    }
+
+    #myProgress {
+        width: calc(90vw - 12vw) !important;
+    }
+
+    .navbar {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .navbar-brand {
+        margin: auto;
+        text-align: center !important;
+    }
+
+    .buttonPhoneNumber {
+        margin: auto !important;
+    }
+}

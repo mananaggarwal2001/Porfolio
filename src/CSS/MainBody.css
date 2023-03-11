@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+.MainbodyClass {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+    /* padding: 100px; */
+    box-sizing: border-box;
+    position: relative;
+    background-color: rgba(255, 255, 0, 0.5);
+    background-size: cover;
+}
+
+.firstSeciton {
+    margin-top: 5vh;
+    width: 50vw;
+}
+
+/* About Section Starts From Here */
+.AboutSection{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.AboutMeSection{
+    background-color: white;
+    padding-top: 100px;
+
+}
+.AboutMeHeading{
+    width:110px;
+    margin:18px auto;
+    background-color: rgba(255, 255, 0, 0.866);
+    border-radius: 10%;
+    border:2px solid black;
+    font-weight: bold;
+    font-size: 1.3rem;
+    font-weight: 'Roboto', sans-serif;
+}
+.AboutMe{
+    font-weight: bolder;
+    font-size: 2.5rem;
+}
+
+/* Servies Section will start from here. */

@@ -1,0 +1,145 @@
+.contactmeSection {
+    display: flex;
+    justify-content: space-between;
+    background-color: #f5df4e !important;
+    padding: 6.5rem;
+    flex-wrap: wrap;
+}
+
+.contactmeleft {
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.getintouch h3 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+
+.getintouch p {
+    font-size: 1.5rem;
+    line-height: 40px;
+}
+
+.livingin {
+    margin-top: 30px;
+}
+
+.livingin :first-child {
+    line-height: 10px;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.livingin :last-child {
+    font-size: 1.3rem;
+}
+
+.Call {
+    margin-top: 30px;
+}
+
+.Call :first-child {
+    line-height: 10px;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.Call :last-child {
+    font-size: 1.3rem;
+}
+
+/* icon Section Starts from here */
+
+.iconSection {
+    display: flex;
+    margin-top: 30px;
+}
+
+.navicon {
+    margin-right: 20px;
+    font-size: 1.7rem;
+    font-weight: 900;
+    color: rgb(72, 71, 71);
+    transition-property: all;
+    transition-timing-function: ease;
+    transition-duration: 400ms;
+}
+
+.navicon:hover {
+    font-size: 1.9rem;
+}
+
+.facebook:hover {
+    color: blue;
+}
+
+.linkedin:hover {
+    color: blue;
+}
+
+.twitter:hover {
+    color: rgb(22, 146, 190);
+}
+
+.instagram:hover {
+    color: rgb(252, 44, 79);
+}
+
+.github:hover {
+    color: black;
+}
+
+.contactmeright {
+    width: 40vw;
+}
+
+.contactmeright h3 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+.contactmeright input, .contactmeright textarea{
+    background-color: inherit;
+    border:none;
+    border-bottom: 2px solid black;
+    border-radius: 0 !important;
+    appearance: none;
+    padding: .25rem;
+    margin: 20px 0;
+    font-size: 1.5rem;
+}
+.form-control:active{
+    background: none !important;
+    border: none !important;
+}
+
+.form-control:focus{
+    background: none !important;
+    border: none !important;
+}
+
+.form-label{
+    font-size: 1.3rem;
+}
+
+form button{
+    background-color: black !important;
+    font-weight: bolder !important;
+    font-size: 1rem !important;
+    padding: .8rem 2.5rem !important;
+    border: 2px solid white;
+    box-shadow: 0 15px 15px  rgba(0, 0, 0, 0.249);
+    border-radius: 8px !important;
+    transition-property: all !important;
+    transition-duration: 500ms !important;
+    transition-timing-function: ease !important;
+}
+
+form button:hover{
+    background-color: rgb(71, 71, 71) !important;
+    border-radius: 0 !important;
+}

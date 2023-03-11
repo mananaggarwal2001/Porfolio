@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.AboutMeSectionClass p {
+    padding: 0 7vw;
+    font-size: 1.5rem;
+    line-height: 45px;
+    align-content: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.headingClass {
+    font-weight: 500;
+    font-size: 2.5rem;
+    padding-bottom: 50px;
+}
+
+.AboutNameClass {
+    font-weight: bolder;
+    border-bottom: 4px solid yellow;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* About me details Section in the given box */
+
+.AboutMedetailsClass {
+    display: flex;
+    padding: 0 7vw;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    line-height: 14px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.AboutMedetailsClass p {
+    font-size: 1.2rem;
+}
+
+.askingDetailsClass {
+    font-weight: bold;
+    color: rgba(128, 128, 128, 0.836);
+}
+
+.detailbox {
+    font-family: 'Roboto', sans-serif;
+}
+
+.detailbox :last-child {
+    font-weight: bold;
+}
+
+.mailLinkClass{
+    color:black !important;
+}
+.mailLinkClass:hover{
+    text-decoration: none;
+}

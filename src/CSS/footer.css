@@ -1,0 +1,17 @@
+.FooterSection{
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    color:white;
+    padding: 4rem 0;
+    flex-wrap: wrap;
+}
+.FooterSection p{
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+
+.NameSpanClass{
+    text-decoration: underline;
+    color:#f3d92c;
+}
