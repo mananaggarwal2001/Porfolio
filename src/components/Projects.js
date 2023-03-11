@@ -4,9 +4,9 @@ const Projects = (props) => {
     const { Projects } = props;
     return (
         <div className='projectContainer'>
-            <p className='text-center ' data-aos='slide-left'><span className='projectHeadingName'>Projects</span></p>
-            <h3 className='text-center ProjectMainHeading' data-aos='slide-right'>Some of my most recent projects</h3>
-            <div class="row row-cols-1 row-cols-md-4 g-4 my-5  mainProjectCardHeading" data-aos='slide-up'>
+            <p className='text-center ' data-aos='fade-left'><span className='projectHeadingName'>Projects</span></p>
+            <h3 className='text-center ProjectMainHeading' data-aos='fade-right'>Some of my most recent projects</h3>
+            <div class="row row-cols-1 row-cols-md-4 g-4 my-5  mainProjectCardHeading" data-aos='fade-up'>
                 {Projects.map((element) => {
 
                     return <div class="col cardItem">

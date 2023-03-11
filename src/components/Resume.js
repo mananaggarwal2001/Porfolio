@@ -10,7 +10,7 @@ const Resume = (props) => {
                 <p className='text-center'> <span className='ResumeHeadingClass'>Resume</span> </p>
                 <h3 className='text-center'> <span className='ResumeTopicClass'>A Summary of my Resume</span> </h3>
                 <div className="educationAndExperience">
-                    <div className="myEducation" data-aos='slide-up'>
+                    <div className="myEducation" data-aos='fade-up'>
                         <h3 className='headingClassOfCard'>My Education</h3>
                         <div className="card" >
 
@@ -25,7 +25,7 @@ const Resume = (props) => {
                             })}
                         </div>
                     </div>
-                    <div className="MyExperience" data-aos='slide-up' data-aos-delay="500">
+                    <div className="MyExperience" data-aos='fade-up' data-aos-delay="500">
                         <h3 className='headingClassOfCard'>My Experience</h3>
                         <div className="card" >
                             <div className="card-body resumeBody">
@@ -50,7 +50,7 @@ const Resume = (props) => {
                     </div>
                 </div>
                 <div className="skills">
-                    <h3 className='headingClassOfCard text-center' data-aos='fade-up'>My Skills</h3>
+                    <h3 className='headingClassOfCard text-center' data-aos='fade-up' data-aos-delay="1000">My Skills</h3>
 
 
 

@@ -3,7 +3,7 @@ import '../CSS/Contactme.css'
 const Contactme = () => {
     return (
         <div className='contactmeSection'>
-            <div className="contactmeleft" data-aos='slide-up'>
+            <div className="contactmeleft" data-aos='fade-up'>
                 <div className="getintouch">
                     <h3>Let's Get in touch</h3>
                     <p>I enjoy discussing new projects and design challenges. Please share as much info, as possible so we can get the most out of our first catch-up.</p>
@@ -25,7 +25,7 @@ const Contactme = () => {
                     <a className="navicon github" href="/"><i className="fa-brands fa-github" target='_blank' rel="noreferrer"></i></a>
                 </div>
             </div>
-            <div className="contactmeright" data-aos='slide-up' data-aos-delay='500'>
+            <div className="contactmeright" data-aos='fade-up' data-aos-delay='500'>
                 <h3>Estimate your Project?</h3>
                 <form>
                     <div className="mb-5">
