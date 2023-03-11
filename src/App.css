@@ -316,7 +316,7 @@ form button:hover {
 }
 
 .HireMeClass {
-  background-image: url('../Images/Laptop.jpg');
+  background-image: url('./Images/Laptop.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
