@@ -72,7 +72,7 @@ const Resume = (props) => {
                         </div>
                     </div>
 
-                    <p className="CVParagraphTag" data-aos='slide-left'><a className='CVDownloadClass' href="http://">Download CV</a></p>
+                    <p className="CVParagraphTag" data-aos='slide-up'><a className='CVDownloadClass' href="http://">Download CV</a></p>
                 </div>
             </div>
         </>
