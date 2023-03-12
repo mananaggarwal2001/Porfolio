@@ -1,12 +1,10 @@
 import React, { useState } from 'react'
 import '../CSS/Navbar.css'
-import ham from '../Images/ham.png'
-import cross from '../Images/cross.png'
 const Navbar = () => {
-
-    const [flag, setFlag] = useState(true)
     const handleToggleButton = () => {
         document.getElementById('mainHamClass').classList.toggle('icon');
+        document.getElementById('ListItemId').classList.toggle('opacity-invisibleClass')
+        document.getElementById('listItemIdList').classList.toggle('transformClass')
     }
     return (
         <div className=' parentContainerOfNavbar d-flex'>
@@ -30,8 +28,8 @@ const Navbar = () => {
             </div>
 
             <div className="listNavItemsClass">
-                <ul className='ListItemClass opacity-invisibleClass'>
-                    <div className='listTopicItemsClass '>
+                <ul id='ListItemId' className='ListItemClass opacity-invisibleClass'>
+                    <div id='listItemIdList' className='listTopicItemsClass '>
                         <li> <a href=""> Home </a></li>
                         <li> <a href=""> About Me</a></li>
                         <li> <a href=""> What I Do ? </a></li>
@@ -39,13 +37,20 @@ const Navbar = () => {
                         <li> <a href=""> Projects </a></li>
                         <li> <a href=""> Contact Me </a></li>
                     </div>
-                    <li className='iconClass'>
-                        <a className="icon facebook" href="https://facebook.com" target='_blank' rel="noreferrer"><i className="fa-brands fa-facebook"></i></a>
-                        <a className="icon instagram" href="/"><i className="fa-brands fa-instagram"></i></a>
-                        <a className="icon linkedin" href="https://www.linkedin.com/in/manan-aggarwal-766603145" target='_blank' rel="noreferrer"><i className="fa-brands fa-linkedin"></i></a>
-                        <a className="icon twitter" href="/"><i className="fa-brands fa-twitter" target='_blank' rel="noreferrer"></i></a>
-                        <a className="icon github" href="/"><i className="fa-brands fa-github" target='_blank' rel="noreferrer"></i></a>
-                    </li>
+                    <div className="iconDivClass d-flex">
+
+
+                        <li>
+                            <a className="icon facebook me-3" href="https://facebook.com" target='_blank' rel="noreferrer"><i className="fa-brands fa-facebook"></i></a>
+                        </li>
+                        <li><a className="icon instagram me-3" href="/"><i className="fa-brands fa-instagram"></i></a></li>
+                        <li><a className="icon linkedin me-3" href="https://www.linkedin.com/in/manan-aggarwal-766603145" target='_blank' rel="noreferrer me-3"><i className="fa-brands fa-linkedin"></i></a>
+                        </li>
+                        <li><a className="icon twitter me-3" href="/"><i className="fa-brands fa-twitter" target='_blank' rel="noreferrer"></i></a>
+                        </li>
+                        <li><a className="icon github" href="/"><i className="fa-brands fa-github" target='_blank' rel="noreferrer"></i></a>
+                        </li>
+                    </div>
                 </ul>
             </div>
 

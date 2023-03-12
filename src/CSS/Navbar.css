@@ -6,13 +6,10 @@
     box-sizing: border-box;
     justify-content: space-between;
     background-color: rgb(0, 0, 0) !important;
-    /* position: fixed; */
     flex-wrap: wrap;
     padding: 0 50px;
-    /* justify-content: center; */
     align-items: center;
     color: white;
-    z-index: 1;
     font-weight: bolder;
     font-family: 'Roboto', sans-serif;
 }
@@ -46,21 +43,23 @@
 
 .listNavItemsClass {
     position: absolute;
-    top: 70px;
+    top: 0;
     left: 0;
     right: 0;
     bottom: 0;
     color: white;
-    z-index: 10000000000000000000000;
 }
 
 .listNavItemsClass ul {
     display: block;
     flex-direction: column;
     text-align: center;
-    background-color: rgba(0, 0, 0, 0.716);
+    background-color: rgba(0, 0, 0, 0.829);
     height: 100vh;
     padding: 100px 0;
+    z-index: 1000;
+    transform: translateY(10px);
+    transition: visibility .3s ease, opacity .3s ease;
 }
 
 .listNavItemsClass ul li {
@@ -72,13 +71,14 @@
     font-weight: bolder;
     font-size: 1.5rem;
     font-family: 'Roboto', sans-serif;
+    z-index: 1000;
 }
 
 .parentContainerOfNavbar {
     display: flex;
     position: fixed;
-    z-index: 1000000000000000000;
     width: inherit;
+    z-index: 100;
 }
 
 .listTopicItemsClass {
@@ -86,6 +86,9 @@
     overflow-y: auto;
     display: flex;
     flex-direction: column;
+    transition-property: transform;
+    transition-timing-function: ease;
+    transition-duration: 300ms;
 
 }
 
@@ -95,52 +98,34 @@
     transition-duration: 200ms;
     color: white;
     text-decoration: none;
-    display: inline;
 }
 
 .listTopicItemsClass li a:hover {
     color: rgb(128, 255, 0);
 }
 
-#Burger:hover {
-    transform: rotate(180deg);
-    transition-property: all;
-    transition-timing-function: ease-in-out;
-    transition-duration: 1s;
-}
-
-#Cross:hover {
-    transform: rotate(180deg);
-    transition-property: all;
-    transition-timing-function: ease-in-out;
-    transition-duration: 1s;
-}
-
 .icon {
     color: white;
-    font-size: 2rem;
-    margin: 0 20px;
-
 }
 
 .icon i {
     transition-property: all;
-    transition-timing-function: ease-in-out;
+    transition-timing-function: ease;
     transition-duration: 200ms;
+    font-size: 1.5rem;
+
 }
 
 .icon:hover i {
-    font-size: 2.3rem;
+    font-size: 1.8rem;
 }
 
+.transformClass{
+    transform: translateY(40px);
+}
 .opacity-invisibleClass {
     visibility: hidden;
-    z-index: 0;
-}
-
-.opacity-visibleClass {
-    visibility: visible;
-    z-index: 10000000000000000000;
+    opacity: 0;
 }
 
 .bar {
@@ -149,7 +134,7 @@
     height: 5px;
     background-color: white;
     display: block;
-    border-radius: 5px;
+    border-radius: 10px;
     transition: 0.6s ease;
 
 }
@@ -167,7 +152,7 @@
 }
 
 .icon #bar1 {
-    transform: rotate(55deg);
+    transform: translateY(4px) rotate(55deg);
 }
 
 .icon #bar2 {
@@ -175,32 +160,44 @@
 }
 
 .icon #bar3 {
-    transform:  rotate(-55deg);
+    transform: translateY(-6px) rotate(-55deg);
 }
 
 .hamclass {
     display: block;
-    z-index: 100000;
-    width: 45px;
-    position: relative;
-    margin-left: 12px;
-    position: sticky;
-}
-.mainHamClass{
-    position: relative;
-    display: inline;
+    width: 2.3rem;
+    z-index: 1000000000000000000000;
+
 }
 
-.subHamclass{
+#mainHamClass {
+    position: relative;
+    z-index: 1000000000000000000000;
+}
+
+.subHamclass {
     width: 100%;
 }
-.NamePhoneNumber{
+
+.NamePhoneNumber {
     justify-content: space-between;
     width: calc(100vw - 150px - 12px)
 }
-.NamePhoneNumber span{
+
+.NamePhoneNumber span {
     display: flex;
     align-items: center;
     margin-bottom: 5px;
     font-size: 1.2rem;
+}
+
+.iconDivClass {
+    justify-content: center;
+    width: 100vw;
+    margin-top: 80px;
+}
+
+.iconDivClass li {
+    width: 1.5rem;
+    margin: 0 10px !important;
 }
