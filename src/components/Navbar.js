@@ -11,14 +11,19 @@ const Navbar = () => {
     return (
         <div className=' parentContainerOfNavbar d-flex'>
             <div className=" NavbarContainer d-flex">
+                <div className="NamePhoneNumber d-flex">
 
-                <p className=' nameClass text-uppercase'>Manan Aggarwal</p>
-                <div className="PhoneHamBurgerClass">
+                    <p className=' nameClass text-uppercase'>Manan Aggarwal</p>
                     <span><i className='fa-solid fa-phone p-2'></i>(+91)-9319054970</span>
+                </div>
+                <div className="PhoneHamBurgerClass">
+
                     <div id='mainHamClass' class="hamclass" onClick={handleToggleButton}>
-                        <div id='bar1' className="bar"></div>
-                        <div id='bar2' className="bar"></div>
-                        <div id='bar3' className="bar"></div>
+                        <div className="subHamclass">
+                            <div id='bar1' className="bar"></div>
+                            <div id='bar2' className="bar"></div>
+                            <div id='bar3' className="bar"></div>
+                        </div>
                     </div>
                 </div>
 
