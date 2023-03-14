@@ -10,7 +10,6 @@ import Projects from './Projects'
 import Contactme from './Contactme'
 import Footer from './Footer'
 import HireMe from './HireMe'
-import { Routes, Route } from 'react-router-dom'
 
 const MainBody = (props) => {
 

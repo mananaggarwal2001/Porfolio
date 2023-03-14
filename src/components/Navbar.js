@@ -1,7 +1,4 @@
-import React, { useState , useEffect } from 'react'
-
 import '../CSS/Navbar.css'
-import HigllightedNavbar from './HigllightedNavbar';
 const Navbar = () => {
     const handleToggleButton = () => {
         document.getElementById('mainHamClass').classList.toggle('icon');

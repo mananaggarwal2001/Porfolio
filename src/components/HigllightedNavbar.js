@@ -1,15 +1,13 @@
 
-import React from 'react'
 const HigllightedNavbar = () => {
     const sections = document.querySelectorAll('section')
     const navitems = document.querySelectorAll('.listTopicItemsClass li a')
     window.addEventListener('scroll', () => {
-        let current = '';
-        let value = '';
+        let current = ''
         sections.forEach(section => {
-
+            const sectionPageHeight = section.clientHeight;
             const sectionHeight = section.offsetTop;
-            if (window.scrollY > sectionHeight) {
+            if (window.scrollY > (sectionHeight- (sectionPageHeight/4))) {
                 current = section.getAttribute('id');
             }
 

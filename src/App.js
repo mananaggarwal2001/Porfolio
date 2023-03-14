@@ -4,9 +4,6 @@ import './CSS/Responsive.css'
 import AOS from 'aos';
 import HighlightedNavbar from './components/HigllightedNavbar'
 import { useEffect } from 'react';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import CoverPageLeft from './components/CoverPageLeft';
-import AboutMeSecondSection from './components/AboutmeSecondSection';
 
 function App() {
   useEffect(() => {
