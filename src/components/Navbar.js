@@ -1,11 +1,16 @@
-import React, { useState } from 'react'
+import React, { useState , useEffect } from 'react'
+
 import '../CSS/Navbar.css'
+import HigllightedNavbar from './HigllightedNavbar';
 const Navbar = () => {
     const handleToggleButton = () => {
         document.getElementById('mainHamClass').classList.toggle('icon');
         document.getElementById('ListItemId').classList.toggle('opacity-invisibleClass')
         document.getElementById('listItemIdList').classList.toggle('transformClass')
     }
+
+
+
     return (
         <div className=' parentContainerOfNavbar d-flex'>
             <div className=" NavbarContainer d-flex">
@@ -29,13 +34,13 @@ const Navbar = () => {
 
             <div className="listNavItemsClass">
                 <ul id='ListItemId' className='ListItemClass opacity-invisibleClass'>
-                    <div id='listItemIdList' className='listTopicItemsClass '>
-                        <li> <a href=""> Home </a></li>
-                        <li> <a href=""> About Me</a></li>
-                        <li> <a href=""> What I Do ? </a></li>
-                        <li> <a href=""> Resume </a></li>
-                        <li> <a href=""> Projects </a></li>
-                        <li> <a href=""> Contact Me </a></li>
+                    <div id='listItemIdList' className='listTopicItemsClass'>
+                        <li> <a className='Home active' id='HomeID' href="#Home"> Home </a></li>
+                        <li> <a className='About' id='AboutMeID' href="#About"> About Me</a></li>
+                        <li> <a className='WhatIDo' id='WhatIDoID' href="#WhatIDo"> What I Do ? </a></li>
+                        <li> <a className='Resume' id='ResumeID' href="#Resume"> Resume </a></li>
+                        <li> <a className='Projects' id='ProjectsID' href="#Projects"> Projects </a></li>
+                        <li> <a className='ContactMe' id='ContactMeID' href="#ContactMe"> Contact Me </a></li>
                     </div>
                     <div className="iconDivClass d-flex">
 

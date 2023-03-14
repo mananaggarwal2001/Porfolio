@@ -10,22 +10,24 @@ import Projects from './Projects'
 import Contactme from './Contactme'
 import Footer from './Footer'
 import HireMe from './HireMe'
+import { Routes, Route } from 'react-router-dom'
+
 const MainBody = (props) => {
 
-
-    const {education, projects} = props;
+    const { education, projects } = props;
     return (
         <>
             <Navbar />
-            <div className='MainbodyClass'>
+            <section className='MainbodyClass' id='Home'>
                 <div className="firstSeciton">
-                    <CoverPageLeft />
+                    <CoverPageLeft/>
                 </div>
                 <div className="secondSection">
                     <CoverPageRight />
                 </div>
-            </div>
-            <div className="AboutMeSection">
+            </section>
+
+            <section className="AboutMeSection" id='About'>
                 <div className="headingContainer">
                     <p className='AboutMeHeading text-center'><span>About Me</span></p>
                     <h2 className='AboutMe text-center'>Know Me More</h2>
@@ -33,25 +35,27 @@ const MainBody = (props) => {
                 <div className="AboutSection">
                     <AboutMeSecondSection />
                 </div>
-            </div>
-            <div className="serviceSection">
+            </section>
+            <section className="serviceSection" id='WhatIDo'>
                 <Service />
-            </div>
-            <div className="resumeSection">
+            </section>
+            <section className="resumeSection" id='Resume'>
                 <Resume education={education} />
-            </div>
-            <div className="projectSection">
+            </section>
+            <section className="projectSection" id='Projects'>
                 <Projects Projects={projects} />
-            </div>
-            <div className="hireMeSection">
-                <HireMe/>
-            </div>
-            <div className="contactme">
-                <Contactme/>
-            </div>
-            <div className="footer">
-                <Footer/>
-            </div>
+            </section>
+            <section className="hireMeSection">
+                <HireMe />
+            </section>
+            <section className="contactme" id='ContactMe'>
+                <Contactme />
+            </section>
+            <section className="footer">
+                <Footer />
+            </section>
+
+
         </>
     )
 }

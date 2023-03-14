@@ -101,6 +101,9 @@
 }
 
 .listTopicItemsClass li a:hover {
+    color: rgb(128, 255, 0) !important;
+}
+.active{
     color: rgb(128, 255, 0);
 }
 

@@ -8,3 +8,7 @@ body{
   background-attachment: fixed;
   z-index: -1;
 }
+
+.listTopicItemsClass li a:hover {
+  color: rgb(128, 255, 0);
+}
