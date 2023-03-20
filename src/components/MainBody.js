@@ -13,7 +13,7 @@ import HireMe from './HireMe'
 
 const MainBody = (props) => {
 
-    const { education, projects } = props;
+    const { education, projects, experience } = props;
     return (
         <>
             <Navbar />
@@ -39,7 +39,7 @@ const MainBody = (props) => {
                 <Service />
             </section>
             <section className="resumeSection" id='Resume'>
-                <Resume education={education} />
+                <Resume education={education} experience= {experience} />
             </section>
             <section className="projectSection" id='Projects'>
                 <Projects Projects={projects} />

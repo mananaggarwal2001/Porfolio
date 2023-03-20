@@ -85,10 +85,15 @@ function App() {
       applicationLink: null
     },
   ]
+  const experience = [{
+    nameofEvent: 'Glitch Hackathon 2023',
+    college: 'Shiv Nadar University',
+    description:'I have attended the glitch hackathon 2023 at the Shiv Nadar Unversity and got upto the round 2.'
+  }]
   return (
     <>
 
-      <MainBody education={Education} projects={projects} />
+      <MainBody education={Education} projects={projects} experience= {experience} />
     </>
   );
 }
