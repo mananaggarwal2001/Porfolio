@@ -1,5 +1,5 @@
 import React from 'react'
-import photo from '../Images/Manan.jpg'
+import photo from '../Images/Manan Photo.jpg'
 import '../CSS/CoverPageRight.css'
 const CoverPageRight = () => {
     return (
