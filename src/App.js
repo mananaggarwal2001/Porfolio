@@ -80,6 +80,11 @@ function App() {
       applicationLink: null
     },
     {
+      name: 'Ecommerce Website',
+      githubLink: 'https://github.com/mananaggarwal2001/Codes-Wear.git',
+      applicationLink: null
+    },
+    {
       name: 'Weather API',
       githubLink: 'https://github.com/mananaggarwal2001/Weather-Api',
       applicationLink: null
