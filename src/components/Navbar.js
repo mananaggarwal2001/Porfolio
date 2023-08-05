@@ -1,6 +1,7 @@
 import '../CSS/Navbar.css'
 const Navbar = () => {
-    const handleToggleButton = () => {
+    const handleToggleButton = () =>
+    {
         document.getElementById('mainHamClass').classList.toggle('icon');
         document.getElementById('ListItemId').classList.toggle('opacity-invisibleClass')
         document.getElementById('listItemIdList').classList.toggle('transformClass')
